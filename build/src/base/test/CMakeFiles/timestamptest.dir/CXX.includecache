@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/base/Timestamp.h
+iostream
+-
+string
+-
+sys/time.h
+-
+
+/home/lq/CLionProjects/my_network_demo/src/base/test/test_timestamp.cpp
+Timestamp.h
+/home/lq/CLionProjects/my_network_demo/src/base/test/Timestamp.h
+

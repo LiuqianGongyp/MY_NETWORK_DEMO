@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/loggingtest.dir/loggingtest.cpp.o  -o ../../../../src/logger/test/loggingtest -Wl,-rpath,/home/lq/CLionProjects/my_network_demo/lib ../../../../lib/libmy_network_demo.so -lpthread 

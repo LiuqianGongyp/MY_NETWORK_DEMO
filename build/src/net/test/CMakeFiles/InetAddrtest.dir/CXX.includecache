@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../src/net/InetAddress.h
+arpa/inet.h
+-
+netinet/in.h
+-
+string
+-
+string.h
+-
+
+/home/lq/CLionProjects/my_network_demo/src/net/test/InetAddressTest.cpp
+iostream
+-
+InetAddress.h
+/home/lq/CLionProjects/my_network_demo/src/net/test/InetAddress.h
+

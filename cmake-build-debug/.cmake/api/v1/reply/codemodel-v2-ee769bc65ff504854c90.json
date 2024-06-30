@@ -1,0 +1,200 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-b05c7971df711a1f23f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "example",
+					"jsonFile" : "directory-example-Debug-b6fca4a6d0a37c6ae6b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "example",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						5,
+						7
+					]
+				},
+				{
+					"build" : "src/logger/test",
+					"jsonFile" : "directory-src.logger.test-Debug-eba91bc8939ca6b47dea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/logger/test",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "src/base/test",
+					"jsonFile" : "directory-src.base.test-Debug-728ddfbcbd32079a9e1b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/base/test",
+					"targetIndexes" : 
+					[
+						3,
+						8
+					]
+				},
+				{
+					"build" : "src/net/test",
+					"jsonFile" : "directory-src.net.test-Debug-4e753f9ef33fb65f21be.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src/net/test",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "my_network_demo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "EchoServer::@70983d692f648185febe",
+					"jsonFile" : "target-EchoServer-Debug-362e8f85335bdbbdf63a.json",
+					"name" : "EchoServer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "HttpServer::@70983d692f648185febe",
+					"jsonFile" : "target-HttpServer-Debug-b6ca65ca9b6920550cc8.json",
+					"name" : "HttpServer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "InetAddrtest::@fba4211687ea4eb2775a",
+					"jsonFile" : "target-InetAddrtest-Debug-76cca1e6d36c5519e186.json",
+					"name" : "InetAddrtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ThreadPoolTest::@7eeda04a1b5b509f01c4",
+					"jsonFile" : "target-ThreadPoolTest-Debug-b5d302e2f7d1387b57c2.json",
+					"name" : "ThreadPoolTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "loggingtest::@11f0063f026794e01d96",
+					"jsonFile" : "target-loggingtest-Debug-25b9d955e3df68433a97.json",
+					"name" : "loggingtest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "loggingtest1::@70983d692f648185febe",
+					"jsonFile" : "target-loggingtest1-Debug-cd9f492643e7453b4697.json",
+					"name" : "loggingtest1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_network_demo::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_network_demo-Debug-4363f7620ff954425c45.json",
+					"name" : "my_network_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "mysqlPoolTest::@70983d692f648185febe",
+					"jsonFile" : "target-mysqlPoolTest-Debug-15d97f3dc3772b12c236.json",
+					"name" : "mysqlPoolTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "timestamptest::@7eeda04a1b5b509f01c4",
+					"jsonFile" : "target-timestamptest-Debug-ee5b91e298274f1d3277.json",
+					"name" : "timestamptest",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/lq/CLionProjects/my_network_demo/cmake-build-debug",
+		"source" : "/home/lq/CLionProjects/my_network_demo"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}
