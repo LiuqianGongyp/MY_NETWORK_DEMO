@@ -48,9 +48,7 @@
 
 有多个reactors（包括一个主reactor和多个子reactors）和线程池，多个子reactors共享一个线程池，每个线程独立运行一个事件循环，适用于突发I/O与密集计算。
 
-![并发模型](D:\code\my_network_demo\fig\并发模型.png)
-
-
+![并发模型](.\fig\并发模型.png)
 
 1. 主reactor负责监听和派发新连接，监听和派发新连接通过Acceptor实现，当接收到新连接时，通过Acceptor以轮询的方式将新连接分派给子Reactor。
 2. 子Reactor负责分派给它的连接的读写事件。每个子Reactor把它计算相关的操作放到线程池中进行。
