@@ -74,7 +74,7 @@ void Channel::handleEventWithGuard(Timestamp receiveTime) {
         LOG_ERROR << "the fd = " << this->fd();
         if(errorCallback_) errorCallback_();
     }
-    if(revents_ & (EPOLLIN | EPOLLPRI)){
+    if(revents_ & (EPOLLIN | EPOLLPRI | POLLRDHUP)){
         LOG_DEBUG << "channel have read events, the fd = " << this->fd();
         if(readCallback_){
             LOG_DEBUG << "channel call the readCallback(), the fd = " << this->fd();

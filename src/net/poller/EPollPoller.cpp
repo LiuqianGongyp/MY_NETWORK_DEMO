@@ -57,6 +57,7 @@ void  EPollPoller::updateChannel(Channel *channel) {
     if(index == kNew || index == kDeleted){//未添加和已删除状态都有可能会被再次添加到epoll中
         int fd = channel->fd();
         if(index == kNew){
+			assert(channels_.find(fd) == channels_.end());
             channels_[fd] = channel;//添加到键值对
         }else{//index == kDeleted
             assert(channels_.find(fd) != channels_.end());

@@ -27,7 +27,7 @@ public:
     static Poller* newDefultPoller(EventLoop * Loop);
 protected:
     using ChannelMap = std::unordered_map<int, Channel*>;
-    ChannelMap channels_;//存储channel的映射
+    ChannelMap channels_;//存储fd->channel的映射
 private:
     EventLoop *ownerLoop_;//定义Poller所属事件循环
 };
